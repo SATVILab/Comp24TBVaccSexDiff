@@ -29,7 +29,7 @@ For more information, please contact:
 #### GitHub Codespaces
 
 - Ensure that the GitHub Codespace created using this repo has access to the following environment variables:
-  - `GITHUB_USERNAME`: your GitHub user name
+  - `GITHUB_USER`: your GitHub user name (set by default in Codespaces)
   - `GITHUB_PAT`: PAT for GitHub
 - Open a GitHub Codespace, using the `bioc` devcontainer file
 - Start `R`, restore `R` packages and run `projr::projr_build_dev`
