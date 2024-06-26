@@ -1,18 +1,26 @@
-# README
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
+# Comp24TBVaccSexDiff
 
-The purpose of this compendium is to
-`[briefly describe the compendium's goals and objectives]`
+<!-- badges: start -->
+<!-- badges: end -->
+
+The purpose of this repo is to set up the data processing and
+analysis Git repos, and to configure the software environment
+via GitHub Codespaces, for the project
+compare vaccine-induced immune responses between males and females.
 
 ## Contact
 
 For more information, please contact:
-- `[Name]`, `[Email Address]`
-- `[Name]`, `[Email Address]`
+- Thomas J. Scriba, thomas.scriba@uct.ac.za
+- Miguel J. Rodo:
+  - miguel.rodo@uct.ac.za
+  - miguel.rodo@outlook.com
 
 ## Links
 
-- `[URLs to data sources (e.g. OneDrive), GitHub repos, publications, etc.]`
+- [OneDrive project homepage](https://uctcloud-my.sharepoint.com/:f:/r/personal/01463748_wf_uct_ac_za/Documents/Projects/Project24TBVaccSexDiff?csf=1&web=1&e=eIMJIM)
 
 ## Details
 
@@ -20,14 +28,8 @@ For more information, please contact:
 
 #### GitHub Codespaces
 
-- Ensure that the GitHub Codespace has access to the following environment variables:
+- Ensure that the GitHub Codespace created using this repo has access to the following environment variables:
   - `GITHUB_USERNAME`: your GitHub user name
   - `GITHUB_PAT`: PAT for GitHub
-  - *If project uses XetHub*:
-    - `XETHUB_USERNAME`: Username for XetHub
-    - `XETHUB_EMAIL`: Email address for XetHub
-    - `XETHUB_PAT`: PAT for XetHub
-- Open GitHub Codespace
-- Start `R`, and run `projr_build_dev` in the directory of the repo whose results you wish to reproduce.
-
-
+- Open a GitHub Codespace
+- Start `R`, restore `R` packages and run `projr::projr_build_dev`
