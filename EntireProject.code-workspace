@@ -5,6 +5,12 @@
     },
     {
       "path": "../DataTidy24TBVaccSexDiff"
+    },
+    {
+      "path": "../Analysis24TBVaccSexDiffPeak"
+    },
+    {
+      "path": "../Analysis24TBVaccSexDiffMemory"
     }
   ]
 }
