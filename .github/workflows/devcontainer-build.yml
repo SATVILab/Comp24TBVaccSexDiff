@@ -6,8 +6,14 @@ on:
     # To enable auto-runs on *all* branches, change to:
     # branches:
     #   - '**'
+    # To disable (to avoid any auto-runs),
+    # remove this `push` section entirely.
     branches:
       - '2025'
+    paths:
+      - '.devcontainer/renv/**'
+      - '.devcontainer/devcontainer.json'
+      - '.devcontainer/Dockerfile'
   workflow_dispatch:
     inputs:
       branch:
@@ -93,7 +99,7 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           imageName: ${{ env.IMAGE_NAME }}
-          cacheFrom: ${{ env.USE_CACHE_FROM == 'true' && env.IMAGE_NAME || '' }}
+          push: always
 
       - name: Update or create prebuild/devcontainer.json
         run: |
